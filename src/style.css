@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  background-color: tomato;
+}
+
+#root {
+  transform: translateX(3rem);
+}
