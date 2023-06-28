@@ -1,12 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { CharactersRatings } from "./App.tsx";
-import { data } from "../public/fma-data.ts";
-import { CharactersCards } from "./App.tsx";
+import { App } from "./App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <CharactersRatings characters={data} />
-    <CharactersCards FMAcharacters={data} />
+    <App />
   </React.StrictMode>
 );
