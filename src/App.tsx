@@ -8,6 +8,6 @@ import { CharactersCards } from "./Character-cards.tsx";
 export const App = () => (
   <>
     <CharactersRatings characters={data} />
-    <CharactersCards FMAcharacters={data} />
+    <CharactersCards FMACharacters={data} />
   </>
 );
