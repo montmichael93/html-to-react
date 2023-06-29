@@ -6,7 +6,3 @@ export type Character = {
   background: string;
   imageUrl: string;
 };
-
-export interface CharactersCardsProp {
-  FMAcharacters: Character[];
-}

@@ -1,11 +1,15 @@
 import "./character-cards.css";
 import React from "react";
-import { CharactersCardsProp } from "./types";
+import { Character } from "./types";
+
+export interface CharactersCardsProp {
+  FMACharacters: Character[];
+}
 
 class CharactersCards extends React.Component<CharactersCardsProp> {
   render() {
-    const { FMAcharacters } = this.props;
-    const charactersClone = structuredClone(FMAcharacters);
+    const { FMACharacters } = this.props;
+    const charactersClone = structuredClone(FMACharacters);
     return (
       <>
         <section id="character-cards">
